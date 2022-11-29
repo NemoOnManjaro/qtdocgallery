@@ -6,7 +6,7 @@ _gitname=$_basename
 pkgname=$_basename
 
 _basever=5.3.0
-_gitver=4
+_gitver=5
 
 pkgver=$_basever+git$_gitver
 
@@ -20,7 +20,7 @@ depends=('qt5-declarative' 'tracker3' 'tracker3-miners')
 makedepends=('qt5-tools')
 source=("${url}/archive/refs/tags/mer/$pkgver.tar.gz"
     '0001-workaround-missing-G_BEGIN-END_DECLS-in-tracker.patch')
-sha256sums=('7f437c392789732e1cb1e940bd7560b6cc3bdf624c4513a84bf6da62fbacf9cb'
+sha256sums=('3f18a69f62d3d60a566519784834af885419a4bbbdaa7f47392deb9e1e247b41'
     '43e1184286366eb01c66e5d7ec4bfa01b37ca7c56d37054888a2396adb056ff3')
 
 prepare() {
